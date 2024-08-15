@@ -1,16 +1,5 @@
-#include <iostream>
-#include <vector>
-#include <queue>
-#include <stack>
-#include <utility>
-
-using std::cin;
-using std::cout;
-using std::endl;
-using std::vector;
-using std::queue;
-using std::stack;
-using std::pair;
+#include <bits/stdc++.h>
+using namespace std;
 
 int n, m, v;
 
