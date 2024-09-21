@@ -15,8 +15,7 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0,
-						1
+						0
 					]
 				}
 			],
@@ -31,8 +30,7 @@
 					"name" : "CodingTest",
 					"targetIndexes" : 
 					[
-						0,
-						1
+						0
 					]
 				}
 			],
@@ -40,16 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "1010::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-1010-Debug-48117575e4b6b90b34a8.json",
-					"name" : "1010",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 0,
-					"id" : "1158::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-1158-Debug-b3836b80d4b896a1f541.json",
-					"name" : "1158",
+					"id" : "1748::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-1748-Debug-f026821a78a9ce791747.json",
+					"name" : "1748",
 					"projectIndex" : 0
 				}
 			]

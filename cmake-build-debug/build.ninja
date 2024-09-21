@@ -41,70 +41,37 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = D$:/jnghwn/CLionProjects/CodingTest/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target 1010
+# Object build statements for EXECUTABLE target 1748
 
 
 #############################################
-# Order-only phony target for 1010
+# Order-only phony target for 1748
 
-build cmake_object_order_depends_target_1010: phony || .
+build cmake_object_order_depends_target_1748: phony || .
 
-build CMakeFiles/1010.dir/1010.cpp.obj: CXX_COMPILER__1010_unscanned_Debug D$:/jnghwn/CLionProjects/CodingTest/1010.cpp || cmake_object_order_depends_target_1010
-  DEP_FILE = CMakeFiles\1010.dir\1010.cpp.obj.d
+build CMakeFiles/1748.dir/1748.cpp.obj: CXX_COMPILER__1748_unscanned_Debug D$:/jnghwn/CLionProjects/CodingTest/1748.cpp || cmake_object_order_depends_target_1748
+  DEP_FILE = CMakeFiles\1748.dir\1748.cpp.obj.d
   FLAGS = -g -std=c++17 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\1010.dir
-  OBJECT_FILE_DIR = CMakeFiles\1010.dir
+  OBJECT_DIR = CMakeFiles\1748.dir
+  OBJECT_FILE_DIR = CMakeFiles\1748.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target 1010
+# Link build statements for EXECUTABLE target 1748
 
 
 #############################################
-# Link the executable 1010.exe
+# Link the executable 1748.exe
 
-build 1010.exe: CXX_EXECUTABLE_LINKER__1010_Debug CMakeFiles/1010.dir/1010.cpp.obj
+build 1748.exe: CXX_EXECUTABLE_LINKER__1748_Debug CMakeFiles/1748.dir/1748.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\1010.dir
+  OBJECT_DIR = CMakeFiles\1748.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = 1010.exe
-  TARGET_IMPLIB = lib1010.dll.a
-  TARGET_PDB = 1010.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 1158
-
-
-#############################################
-# Order-only phony target for 1158
-
-build cmake_object_order_depends_target_1158: phony || .
-
-build CMakeFiles/1158.dir/1158.cpp.obj: CXX_COMPILER__1158_unscanned_Debug D$:/jnghwn/CLionProjects/CodingTest/1158.cpp || cmake_object_order_depends_target_1158
-  DEP_FILE = CMakeFiles\1158.dir\1158.cpp.obj.d
-  FLAGS = -g -std=c++17 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\1158.dir
-  OBJECT_FILE_DIR = CMakeFiles\1158.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 1158
-
-
-#############################################
-# Link the executable 1158.exe
-
-build 1158.exe: CXX_EXECUTABLE_LINKER__1158_Debug CMakeFiles/1158.dir/1158.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\1158.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = 1158.exe
-  TARGET_IMPLIB = lib1158.dll.a
-  TARGET_PDB = 1158.exe.dbg
+  TARGET_FILE = 1748.exe
+  TARGET_IMPLIB = lib1748.dll.a
+  TARGET_PDB = 1748.exe.dbg
 
 
 #############################################
@@ -132,9 +99,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build 1010: phony 1010.exe
-
-build 1158: phony 1158.exe
+build 1748: phony 1748.exe
 
 # =============================================================================
 # Folder targets.
@@ -144,7 +109,7 @@ build 1158: phony 1158.exe
 #############################################
 # Folder: D:/jnghwn/CLionProjects/CodingTest/cmake-build-debug
 
-build all: phony 1010.exe 1158.exe
+build all: phony 1748.exe
 
 # =============================================================================
 # Built-in targets
