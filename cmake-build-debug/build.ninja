@@ -41,37 +41,37 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = D$:/jnghwn/CLionProjects/CodingTest/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target 1748
+# Object build statements for EXECUTABLE target 16967
 
 
 #############################################
-# Order-only phony target for 1748
+# Order-only phony target for 16967
 
-build cmake_object_order_depends_target_1748: phony || .
+build cmake_object_order_depends_target_16967: phony || .
 
-build CMakeFiles/1748.dir/1748.cpp.obj: CXX_COMPILER__1748_unscanned_Debug D$:/jnghwn/CLionProjects/CodingTest/1748.cpp || cmake_object_order_depends_target_1748
-  DEP_FILE = CMakeFiles\1748.dir\1748.cpp.obj.d
+build CMakeFiles/16967.dir/16967.cpp.obj: CXX_COMPILER__16967_unscanned_Debug D$:/jnghwn/CLionProjects/CodingTest/16967.cpp || cmake_object_order_depends_target_16967
+  DEP_FILE = CMakeFiles\16967.dir\16967.cpp.obj.d
   FLAGS = -g -std=c++17 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\1748.dir
-  OBJECT_FILE_DIR = CMakeFiles\1748.dir
+  OBJECT_DIR = CMakeFiles\16967.dir
+  OBJECT_FILE_DIR = CMakeFiles\16967.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target 1748
+# Link build statements for EXECUTABLE target 16967
 
 
 #############################################
-# Link the executable 1748.exe
+# Link the executable 16967.exe
 
-build 1748.exe: CXX_EXECUTABLE_LINKER__1748_Debug CMakeFiles/1748.dir/1748.cpp.obj
+build 16967.exe: CXX_EXECUTABLE_LINKER__16967_Debug CMakeFiles/16967.dir/16967.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\1748.dir
+  OBJECT_DIR = CMakeFiles\16967.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = 1748.exe
-  TARGET_IMPLIB = lib1748.dll.a
-  TARGET_PDB = 1748.exe.dbg
+  TARGET_FILE = 16967.exe
+  TARGET_IMPLIB = lib16967.dll.a
+  TARGET_PDB = 16967.exe.dbg
 
 
 #############################################
@@ -99,7 +99,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build 1748: phony 1748.exe
+build 16967: phony 16967.exe
 
 # =============================================================================
 # Folder targets.
@@ -109,7 +109,7 @@ build 1748: phony 1748.exe
 #############################################
 # Folder: D:/jnghwn/CLionProjects/CodingTest/cmake-build-debug
 
-build all: phony 1748.exe
+build all: phony 16967.exe
 
 # =============================================================================
 # Built-in targets
