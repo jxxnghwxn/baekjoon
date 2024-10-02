@@ -41,37 +41,37 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = D$:/jnghwn/CLionProjects/CodingTest/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target 15235
+# Object build statements for EXECUTABLE target 1094
 
 
 #############################################
-# Order-only phony target for 15235
+# Order-only phony target for 1094
 
-build cmake_object_order_depends_target_15235: phony || .
+build cmake_object_order_depends_target_1094: phony || .
 
-build CMakeFiles/15235.dir/15235.cpp.obj: CXX_COMPILER__15235_unscanned_Debug D$:/jnghwn/CLionProjects/CodingTest/15235.cpp || cmake_object_order_depends_target_15235
-  DEP_FILE = CMakeFiles\15235.dir\15235.cpp.obj.d
+build CMakeFiles/1094.dir/1094.cpp.obj: CXX_COMPILER__1094_unscanned_Debug D$:/jnghwn/CLionProjects/CodingTest/1094.cpp || cmake_object_order_depends_target_1094
+  DEP_FILE = CMakeFiles\1094.dir\1094.cpp.obj.d
   FLAGS = -g -std=c++17 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\15235.dir
-  OBJECT_FILE_DIR = CMakeFiles\15235.dir
+  OBJECT_DIR = CMakeFiles\1094.dir
+  OBJECT_FILE_DIR = CMakeFiles\1094.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target 15235
+# Link build statements for EXECUTABLE target 1094
 
 
 #############################################
-# Link the executable 15235.exe
+# Link the executable 1094.exe
 
-build 15235.exe: CXX_EXECUTABLE_LINKER__15235_Debug CMakeFiles/15235.dir/15235.cpp.obj
+build 1094.exe: CXX_EXECUTABLE_LINKER__1094_Debug CMakeFiles/1094.dir/1094.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\15235.dir
+  OBJECT_DIR = CMakeFiles\1094.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = 15235.exe
-  TARGET_IMPLIB = lib15235.dll.a
-  TARGET_PDB = 15235.exe.dbg
+  TARGET_FILE = 1094.exe
+  TARGET_IMPLIB = lib1094.dll.a
+  TARGET_PDB = 1094.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target test
@@ -132,7 +132,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build 15235: phony 15235.exe
+build 1094: phony 1094.exe
 
 build test: phony test.exe
 
@@ -144,7 +144,7 @@ build test: phony test.exe
 #############################################
 # Folder: D:/jnghwn/CLionProjects/CodingTest/cmake-build-debug
 
-build all: phony 15235.exe test.exe
+build all: phony 1094.exe test.exe
 
 # =============================================================================
 # Built-in targets
