@@ -41,37 +41,37 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = D$:/jnghwn/CLionProjects/CodingTest/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target 1009
+# Object build statements for EXECUTABLE target 8979
 
 
 #############################################
-# Order-only phony target for 1009
+# Order-only phony target for 8979
 
-build cmake_object_order_depends_target_1009: phony || .
+build cmake_object_order_depends_target_8979: phony || .
 
-build CMakeFiles/1009.dir/1009.cpp.obj: CXX_COMPILER__1009_unscanned_Debug D$:/jnghwn/CLionProjects/CodingTest/1009.cpp || cmake_object_order_depends_target_1009
-  DEP_FILE = CMakeFiles\1009.dir\1009.cpp.obj.d
+build CMakeFiles/8979.dir/8979.cpp.obj: CXX_COMPILER__8979_unscanned_Debug D$:/jnghwn/CLionProjects/CodingTest/8979.cpp || cmake_object_order_depends_target_8979
+  DEP_FILE = CMakeFiles\8979.dir\8979.cpp.obj.d
   FLAGS = -g -std=c++17 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\1009.dir
-  OBJECT_FILE_DIR = CMakeFiles\1009.dir
+  OBJECT_DIR = CMakeFiles\8979.dir
+  OBJECT_FILE_DIR = CMakeFiles\8979.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target 1009
+# Link build statements for EXECUTABLE target 8979
 
 
 #############################################
-# Link the executable 1009.exe
+# Link the executable 8979.exe
 
-build 1009.exe: CXX_EXECUTABLE_LINKER__1009_Debug CMakeFiles/1009.dir/1009.cpp.obj
+build 8979.exe: CXX_EXECUTABLE_LINKER__8979_Debug CMakeFiles/8979.dir/8979.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\1009.dir
+  OBJECT_DIR = CMakeFiles\8979.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = 1009.exe
-  TARGET_IMPLIB = lib1009.dll.a
-  TARGET_PDB = 1009.exe.dbg
+  TARGET_FILE = 8979.exe
+  TARGET_IMPLIB = lib8979.dll.a
+  TARGET_PDB = 8979.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target test
@@ -132,7 +132,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build 1009: phony 1009.exe
+build 8979: phony 8979.exe
 
 build test: phony test.exe
 
@@ -144,7 +144,7 @@ build test: phony test.exe
 #############################################
 # Folder: D:/jnghwn/CLionProjects/CodingTest/cmake-build-debug
 
-build all: phony 1009.exe test.exe
+build all: phony 8979.exe test.exe
 
 # =============================================================================
 # Built-in targets
