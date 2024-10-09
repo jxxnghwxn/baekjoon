@@ -41,37 +41,37 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = D$:/jnghwn/CLionProjects/CodingTest/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target 8979
+# Object build statements for EXECUTABLE target 7568
 
 
 #############################################
-# Order-only phony target for 8979
+# Order-only phony target for 7568
 
-build cmake_object_order_depends_target_8979: phony || .
+build cmake_object_order_depends_target_7568: phony || .
 
-build CMakeFiles/8979.dir/8979.cpp.obj: CXX_COMPILER__8979_unscanned_Debug D$:/jnghwn/CLionProjects/CodingTest/8979.cpp || cmake_object_order_depends_target_8979
-  DEP_FILE = CMakeFiles\8979.dir\8979.cpp.obj.d
+build CMakeFiles/7568.dir/7568.cpp.obj: CXX_COMPILER__7568_unscanned_Debug D$:/jnghwn/CLionProjects/CodingTest/7568.cpp || cmake_object_order_depends_target_7568
+  DEP_FILE = CMakeFiles\7568.dir\7568.cpp.obj.d
   FLAGS = -g -std=c++17 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\8979.dir
-  OBJECT_FILE_DIR = CMakeFiles\8979.dir
+  OBJECT_DIR = CMakeFiles\7568.dir
+  OBJECT_FILE_DIR = CMakeFiles\7568.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target 8979
+# Link build statements for EXECUTABLE target 7568
 
 
 #############################################
-# Link the executable 8979.exe
+# Link the executable 7568.exe
 
-build 8979.exe: CXX_EXECUTABLE_LINKER__8979_Debug CMakeFiles/8979.dir/8979.cpp.obj
+build 7568.exe: CXX_EXECUTABLE_LINKER__7568_Debug CMakeFiles/7568.dir/7568.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\8979.dir
+  OBJECT_DIR = CMakeFiles\7568.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = 8979.exe
-  TARGET_IMPLIB = lib8979.dll.a
-  TARGET_PDB = 8979.exe.dbg
+  TARGET_FILE = 7568.exe
+  TARGET_IMPLIB = lib7568.dll.a
+  TARGET_PDB = 7568.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target test
@@ -132,7 +132,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build 8979: phony 8979.exe
+build 7568: phony 7568.exe
 
 build test: phony test.exe
 
@@ -144,7 +144,7 @@ build test: phony test.exe
 #############################################
 # Folder: D:/jnghwn/CLionProjects/CodingTest/cmake-build-debug
 
-build all: phony 8979.exe test.exe
+build all: phony 7568.exe test.exe
 
 # =============================================================================
 # Built-in targets
