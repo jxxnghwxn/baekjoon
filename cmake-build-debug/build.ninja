@@ -41,70 +41,37 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = D$:/jnghwn/CLionProjects/CodingTest/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target 7568
+# Object build statements for EXECUTABLE target 15989
 
 
 #############################################
-# Order-only phony target for 7568
+# Order-only phony target for 15989
 
-build cmake_object_order_depends_target_7568: phony || .
+build cmake_object_order_depends_target_15989: phony || .
 
-build CMakeFiles/7568.dir/7568.cpp.obj: CXX_COMPILER__7568_unscanned_Debug D$:/jnghwn/CLionProjects/CodingTest/7568.cpp || cmake_object_order_depends_target_7568
-  DEP_FILE = CMakeFiles\7568.dir\7568.cpp.obj.d
+build CMakeFiles/15989.dir/15989.cpp.obj: CXX_COMPILER__15989_unscanned_Debug D$:/jnghwn/CLionProjects/CodingTest/15989.cpp || cmake_object_order_depends_target_15989
+  DEP_FILE = CMakeFiles\15989.dir\15989.cpp.obj.d
   FLAGS = -g -std=c++17 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\7568.dir
-  OBJECT_FILE_DIR = CMakeFiles\7568.dir
+  OBJECT_DIR = CMakeFiles\15989.dir
+  OBJECT_FILE_DIR = CMakeFiles\15989.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target 7568
+# Link build statements for EXECUTABLE target 15989
 
 
 #############################################
-# Link the executable 7568.exe
+# Link the executable 15989.exe
 
-build 7568.exe: CXX_EXECUTABLE_LINKER__7568_Debug CMakeFiles/7568.dir/7568.cpp.obj
+build 15989.exe: CXX_EXECUTABLE_LINKER__15989_Debug CMakeFiles/15989.dir/15989.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\7568.dir
+  OBJECT_DIR = CMakeFiles\15989.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = 7568.exe
-  TARGET_IMPLIB = lib7568.dll.a
-  TARGET_PDB = 7568.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 9461
-
-
-#############################################
-# Order-only phony target for 9461
-
-build cmake_object_order_depends_target_9461: phony || .
-
-build CMakeFiles/9461.dir/9461.cpp.obj: CXX_COMPILER__9461_unscanned_Debug D$:/jnghwn/CLionProjects/CodingTest/9461.cpp || cmake_object_order_depends_target_9461
-  DEP_FILE = CMakeFiles\9461.dir\9461.cpp.obj.d
-  FLAGS = -g -std=c++17 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\9461.dir
-  OBJECT_FILE_DIR = CMakeFiles\9461.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 9461
-
-
-#############################################
-# Link the executable 9461.exe
-
-build 9461.exe: CXX_EXECUTABLE_LINKER__9461_Debug CMakeFiles/9461.dir/9461.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\9461.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = 9461.exe
-  TARGET_IMPLIB = lib9461.dll.a
-  TARGET_PDB = 9461.exe.dbg
+  TARGET_FILE = 15989.exe
+  TARGET_IMPLIB = lib15989.dll.a
+  TARGET_PDB = 15989.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target test
@@ -165,9 +132,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build 7568: phony 7568.exe
-
-build 9461: phony 9461.exe
+build 15989: phony 15989.exe
 
 build test: phony test.exe
 
@@ -179,7 +144,7 @@ build test: phony test.exe
 #############################################
 # Folder: D:/jnghwn/CLionProjects/CodingTest/cmake-build-debug
 
-build all: phony 7568.exe 9461.exe test.exe
+build all: phony 15989.exe test.exe
 
 # =============================================================================
 # Built-in targets
