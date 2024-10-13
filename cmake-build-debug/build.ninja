@@ -41,37 +41,37 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = D$:/jnghwn/CLionProjects/CodingTest/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target 15989
+# Object build statements for EXECUTABLE target 12919
 
 
 #############################################
-# Order-only phony target for 15989
+# Order-only phony target for 12919
 
-build cmake_object_order_depends_target_15989: phony || .
+build cmake_object_order_depends_target_12919: phony || .
 
-build CMakeFiles/15989.dir/15989.cpp.obj: CXX_COMPILER__15989_unscanned_Debug D$:/jnghwn/CLionProjects/CodingTest/15989.cpp || cmake_object_order_depends_target_15989
-  DEP_FILE = CMakeFiles\15989.dir\15989.cpp.obj.d
+build CMakeFiles/12919.dir/12919.cpp.obj: CXX_COMPILER__12919_unscanned_Debug D$:/jnghwn/CLionProjects/CodingTest/12919.cpp || cmake_object_order_depends_target_12919
+  DEP_FILE = CMakeFiles\12919.dir\12919.cpp.obj.d
   FLAGS = -g -std=c++17 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\15989.dir
-  OBJECT_FILE_DIR = CMakeFiles\15989.dir
+  OBJECT_DIR = CMakeFiles\12919.dir
+  OBJECT_FILE_DIR = CMakeFiles\12919.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target 15989
+# Link build statements for EXECUTABLE target 12919
 
 
 #############################################
-# Link the executable 15989.exe
+# Link the executable 12919.exe
 
-build 15989.exe: CXX_EXECUTABLE_LINKER__15989_Debug CMakeFiles/15989.dir/15989.cpp.obj
+build 12919.exe: CXX_EXECUTABLE_LINKER__12919_Debug CMakeFiles/12919.dir/12919.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\15989.dir
+  OBJECT_DIR = CMakeFiles\12919.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = 15989.exe
-  TARGET_IMPLIB = lib15989.dll.a
-  TARGET_PDB = 15989.exe.dbg
+  TARGET_FILE = 12919.exe
+  TARGET_IMPLIB = lib12919.dll.a
+  TARGET_PDB = 12919.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target test
@@ -132,7 +132,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build 15989: phony 15989.exe
+build 12919: phony 12919.exe
 
 build test: phony test.exe
 
@@ -144,7 +144,7 @@ build test: phony test.exe
 #############################################
 # Folder: D:/jnghwn/CLionProjects/CodingTest/cmake-build-debug
 
-build all: phony 15989.exe test.exe
+build all: phony 12919.exe test.exe
 
 # =============================================================================
 # Built-in targets
