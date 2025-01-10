@@ -1,4 +1,0 @@
-D:/jnghwn/CLionProjects/CodingTest/cmake-build-debug/CMakeFiles/12919.dir
-D:/jnghwn/CLionProjects/CodingTest/cmake-build-debug/CMakeFiles/test.dir
-D:/jnghwn/CLionProjects/CodingTest/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/jnghwn/CLionProjects/CodingTest/cmake-build-debug/CMakeFiles/rebuild_cache.dir
