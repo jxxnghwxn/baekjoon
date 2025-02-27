@@ -1,6 +1,10 @@
 {
   "files.associations": {
     "ios": "cpp",
-    "tuple": "cpp"
+    "tuple": "cpp",
+    "vector": "cpp",
+    "xiosbase": "cpp",
+    "queue": "cpp",
+    "iostream": "cpp"
   }
 }
