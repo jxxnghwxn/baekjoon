@@ -1,13 +1,3 @@
-<<<<<<< HEAD
-#include <bits/stdc++.h>
-using namespace std;
-
-
-int main() {
-    cout << "hello world" << endl;
-    return 0;
-}
-=======
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -41,4 +31,3 @@ int main() {
     }
     return 0;
 }
->>>>>>> 01eb04a73acc8e1f2a14249a52b18833f1751e1c
